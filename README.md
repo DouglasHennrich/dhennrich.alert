@@ -59,7 +59,7 @@ $.DHalert.show('Something you want to say', ['Option 1', 'Option 2'], function(e
 ### TSS
 You can customize your alert on `app.tss` file.
 
-* `.DHalertMask` is the role background of the view.
+* `#DHalertMask` is the role background of the view.
 
 ```css
 {
@@ -68,7 +68,7 @@ You can customize your alert on `app.tss` file.
 }
 ```
 
-* `.DHalertOuter` is the background of alert.
+* `#DHalertOuter` is the background of alert.
 
 ```css
 {
@@ -80,7 +80,7 @@ You can customize your alert on `app.tss` file.
 }
 ```
 
-* `.DHalertMessage` is the label that display our alert
+* `#DHalertMessage` is the label that display our alert
 
 ```css
 {
@@ -94,7 +94,7 @@ You can customize your alert on `app.tss` file.
 }
 ```
 
-* `.DHalertSeparator` is the separator view between message and buttons
+* `#DHalertSeparator` is the separator view between message and buttons
 
 ```css
 {
