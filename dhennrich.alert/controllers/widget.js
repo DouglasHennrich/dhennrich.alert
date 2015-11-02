@@ -35,7 +35,7 @@ function show(_message, _options, _callback){
           , title: option
           , textAlign: 'center'
           , color: '#fff'
-          , font: { fontSize: 18, fontFamily: 'Exo-Bold' }
+          , font: { fontSize: 18, fontFamily: $.DHalertMessage.font.fontFamily }
         });
         btns[_i].addEventListener('click', _callback);
 
