@@ -1,0 +1,44 @@
+".DHalertMask": {
+  backgroundColor: "#8000",
+  visible: false
+}
+
+".DHalertOuter": {
+  width: Ti.UI.SIZE,
+  height: Ti.UI.SIZE,
+
+  borderRadius: 10,
+  backgroundColor: "#F2248e21"
+}
+
+".DHalertInner": {
+  top: '20dp',
+  right: '20dp',
+  bottom: '20dp',
+  left: '20dp',
+
+  width: Ti.UI.SIZE,
+  height: Ti.UI.SIZE,
+
+  layout: 'vertical'
+}
+
+".DHalertMessage": {
+  top: '0dp',
+  width: Ti.UI.SIZE,
+  height: Ti.UI.SIZE,
+
+  color: '#fff',
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+  font: {
+    fontSize: '20dp',
+    fontFamily: 'Exo-Bold'
+  }
+}
+
+".DHalertSeparator":{
+    top: '5dp'
+  , height: '2dp'
+  , width: '90%'
+  , backgroundColor: "#FFBC00"
+}

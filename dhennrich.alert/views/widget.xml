@@ -1,0 +1,10 @@
+<Alloy>
+    <View id="DHalertMask" class="DHalertMask">
+        <View id="DHalertOuter" class="DHalertOuter">
+            <View id="DHalertInner" class="DHalertInner">
+                <Label id="DHalertMessage" class="DHalertMessage" />
+                <View id="DHalertSeparator" class="DHalertSeparator"/>
+            </View>
+        </View>
+    </View>
+</Alloy>
