@@ -28,15 +28,9 @@ function show(_message, _options, _callback){
     _options.forEach(function(option){
         btns[_i] = Ti.UI.createButton({
             index: _i
-          , backgroundColor: 'transparent'
-          , top: '20dp'
-          , height: Ti.UI.SIZE
-          , width: '90%'
           , title: option
-          , textAlign: 'center'
-          , color: '#fff'
-          , font: { fontSize: 18, fontFamily: $.DHalertMessage.font.fontFamily }
         });
+        btns[_i].applyProperties($.createStyle({ classes: ['DHBtns'], id: 'DHBtns' }));
         btns[_i].addEventListener('click', _callback);
 
         $.DHalertInner.add(btns[_i]);
