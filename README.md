@@ -105,6 +105,19 @@ You can customize your alert on `app.tss` file.
 }
 ```
 
+* `#DHBtns` is the options buttons style
+
+```css
+{
+    backgroundColor: 'transparent'
+  , top: '20dp'
+  , height: Ti.UI.SIZE
+  , textAlign: 'center'
+  , color: 'red'
+  , font: { fontSize: 18, fontFamily: "Exo-Bold" }
+}
+```
+
 ### Exposed Functions
 
 * show
@@ -114,3 +127,7 @@ You can customize your alert on `app.tss` file.
 $.`idWidget`.show( `alert message`, [ `array`, `buttons`, `names` ], `callback`);
 
 $.`idWidget`.hide();
+
+
+### Changelog
+* **0.0.2** - Add customization for Options Button
