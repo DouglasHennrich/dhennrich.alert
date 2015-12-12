@@ -42,3 +42,12 @@
   , width: '90%'
   , backgroundColor: "#FFBC00"
 }
+
+".DHBtns":{
+    backgroundColor: 'transparent'
+  , top: '20dp'
+  , height: Ti.UI.SIZE
+  , textAlign: 'center'
+  , color: 'red'
+  , font: { fontSize: 18, fontFamily: "Exo-Bold" }
+}
